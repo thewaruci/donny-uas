@@ -1,0 +1,164 @@
+* {
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #bdf7f1;
+}
+
+.main-header {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.header {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.home {
+    background-size:cover;
+    background-image: url(https://malangpost.id/wp-content/uploads/2021/04/UIN-malang-818x490.jpg);
+}
+
+.deskripsi {
+    letter-spacing: 10px;
+}
+
+.home img {
+    border-radius: 50%;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+
+.main-header-logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+.main-header-menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background: white;
+    z-index: 1;
+    border: 1px solid #364f6b;
+    background: #26d0c9;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color:#26d0c9;
+    background-color:#bdf7f1;
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+table {
+    border-color:#364f6b;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo {
+    font-size: 32px;
+    float: left;
+    font-family: courier;
+}
+  
+.footer-section {
+    float:right;
+}
+
+.copyright {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 10px;
