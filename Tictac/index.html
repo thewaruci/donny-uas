@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/UAS/Tictac/style1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="/UAS/Tictac/main1.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <section class="title">
+        <h1>Tic Tac Toe</h1>
+    </section>
+    <form>
+        <br>
+        <div>
+            <label for="playerX">Nama pemain X :</label>
+            <input type="text" name="playerX" id="playerX" required>
+        </div>
+        <br>
+        <div>
+            <label for="playerO">Nama pemain O :</label>
+            <input type="text" name="playerO" id="playerO" required>
+        </div>
+        <br>
+        <button id="start">Mulai permainan</button>
+    </form>
+    <section id="permainan" class="hide">
+        <section class="display">
+            <span class="display-player playerX"></span>'s turn
+        </section>
+        <section class="container">
+            <div class="balok"></div>
+            <div class="balok"></div>
+            <div class="balok"></div>
+            <div class="balok"></div>
+            <div class="balok"></div>
+            <div class="balok"></div>
+            <div class="balok"></div>
+            <div class="balok"></div>
+            <div class="balok"></div>
+        </section>
+        <section class="display announcer hide"></section>
+        <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+        <a href="../index.php">Kembali</a>
+        <section id="score">
+            <table>
+                <tr class="scoreX">
+                    <th></th>
+                    <td>0</td>
+                </tr>
+                <tr class="scoreO">
+                    <th></th>
+                    <td>0</td>
+                </tr>
+            </table>
+        </section>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelemparan Dadu ular Tangga</title>
+</head>
+<body>
+    <div id="header" style="font-family:Monospace">
+        <h1>Pelemparan Dadu Ular Tangga</h1>
+        <p>Donny Setya Pratama (19610044)</p>
+    </div>
+    <div class="tabel" style="padding-bottom: 10px;">
+        <table table border="2">
+            <tr style="font-weight: bold; text-align: center;">
+                <td>Dadu</td>
+                <td>Gambar</td>
+                <td>Value</td>
+                <td>Lempar Dadu</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; text-align: center;">A</td>
+                <td>
+                    <img class="Gambar1" src="asset/1.png" width="20%">
+                </td>
+                <td><span id="value1">1</span></td>
+                <td><button type="button" class="button" onClick="LemparDaduA()">Lempar Dadu A</button></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold; text-align: center;">B</td>
+                <td>
+                    <img class="Gambar2" src="asset/2.png" width="20%">
+                </td>
+                <td><span id="value2">1</span></td>
+                <td>
+                    <button type="button" class="button" onClick="LemparDaduB()">Lempar Dadu B</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="Lempar 2 Dadu">
+        <button type="button" onClick="Lempar2Dadu()">Lempar 2 dadu</button>
+    </div>
+    <div class="Total Langkah" style="padding-top: 10px;">
+        <a href="../index.php">Kembali</a>
+    </div>
+    <script src="script1.js" charset="uth"></script>
+</body>
+</html>
