@@ -25,15 +25,15 @@
                     <?php
                     if(isset($_SESSION['username'])){
                     echo '
-                    <li><a href="/UAS/DataSp/index.php">DataBase</a></li>
-                    <li><a href="/UAS/Login/logout.php">Logout</a></li>';
+                    <li><a href="/DataSp/index.php">DataBase</a></li>
+                    <li><a href="/Login/logout.php">Logout</a></li>';
                     } else {
                       echo
-                      '<li><a href="/UAS/Login/index.php">Login</a></li>
-                      <li><a href="/UAS/Login/register.php">Sign Up</a></li>';
+                      '<li><a href="/Login/index.php">Login</a></li>
+                      <li><a href="/Login/register.php">Sign Up</a></li>';
                     }?>
-                    <li><a href="/UAS/Tictac/index.html">Permainan 1</a></li>
-                    <li><a href="/UAS/LemperDadu/dadu.html">Permainan 2</a></li>
+                    <li><a href="/Tictac/index.html">Permainan 1</a></li>
+                    <li><a href="/LemperDadu/dadu.html">Permainan 2</a></li>
                 </ul>
             </div>
         </div>
